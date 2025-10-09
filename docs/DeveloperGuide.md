@@ -275,14 +275,16 @@ _{Explain here how the data archiving feature will be implemented}_
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
+| Priority | As a …​                          | I want to …​                               | So that I can…​                                                         |
+| -------- | -------------------------------- | ------------------------------------------ | ----------------------------------------------------------------------- |
+| `* * *`  | user                             | add a new job application                  | keep track of positions I’ve applied for                                |
+| `* * *`  | user                             | delete a job application                   | remove outdated or irrelevant applications                              |
+| `* * *`  | user                             | view all my job applications               | see an overview of my ongoing and past applications                     |
+| `* * *`  | user                             | save my job applications to the system     | ensure my application data is not lost when I exit                      |
+| `* *`    | user                             | search or filter job applications by name/company/status | quickly locate specific applications without scrolling through the list |
+| `* *`    | user                             | edit details of an existing application    | update the application when I get new information (e.g., interview date) |
+| `* *`    | new user                         | see usage instructions                     | understand how to use the app effectively                               |
+| `* *`    | organized user                   | sort job applications by status or date    | better visualize my progress                                            |
 
 *{More to be added}*
 
