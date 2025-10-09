@@ -10,7 +10,12 @@ AddressBook - Level 3 is a desktop address book application used for teaching So
 Given below are my contributions to the project.
 
 * **New Feature**:
+
+
 * **Code contributed**:
+
+1. [v1.2] Migrate Person UI components to Job Application context 
+
 * **Project management**:
 * **Enhancements to existing features**:
 * **Documentation**:
