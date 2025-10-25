@@ -1,11 +1,13 @@
 package seedu.job.logic.parser;
 
 import static java.util.Objects.requireNonNull;
+import static seedu.job.logic.JobMessages.MESSAGE_INVALID_COMMAND_FORMAT;
 
 import java.time.LocalDateTime;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import seedu.job.commons.core.index.Index;
 import seedu.job.commons.util.StringUtil;
@@ -31,6 +33,24 @@ public class ParserUtil {
         }
         return Index.fromOneBased(Integer.parseInt(trimmedIndex));
     }
+
+    /**
+     * Parses the given argument string into an array of raw tokens separated by whitespace.
+     * Leading and trailing spaces are ignored.
+     *
+     * @param args the input string to tokenize
+     * @return an array of tokens split by one or more whitespace characters
+     * @throws ParseException if the input string is empty or contains only whitespace
+     */
+    public static String[] parseRawTokens(String args) throws ParseException {
+        String trimmed = args.trim();
+        if (trimmed.isEmpty()) {
+            throw new ParseException(MESSAGE_INVALID_COMMAND_FORMAT);
+        }
+
+        return trimmed.split("\\s+");
+    }
+
 
     /**
      * Parses a {@code String tag} into a {@code Tag}.
