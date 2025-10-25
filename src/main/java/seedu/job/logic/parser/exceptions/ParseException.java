@@ -14,4 +14,9 @@ public class ParseException extends IllegalValueException {
     public ParseException(String message, Throwable cause) {
         super(message, cause);
     }
+
+    public ParseException addDescriptor(String description) {
+        String formattedMessage = String.format(this.getMessage(), description);
+        return new ParseException(formattedMessage, this.getCause());
+    }
 }
