@@ -466,6 +466,10 @@ Format: `find KEYWORD [MORE_KEYWORDS]`
 
 ![find command](images/find-command.png)
 
+<br>
+
+[<u>Back to Command Summary</u>](#command-summary)
+
 ### Filtering Job Applications: `filter`
 
 Filters the list of job applications based on a single field: **Tags**, **Status**, or **Application Deadline**.
